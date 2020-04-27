@@ -21,7 +21,7 @@ console.log(typeof s2)
 //console.log(window);
 //window.alert(1);
 //alert(1)
-
+ 
 //console.log(navigator.appVersion);
 
 
@@ -30,7 +30,7 @@ const book1 = {
   author: 'John Doe',
   year : '2013',
   getSummary : function(){
-    return '${this.title} was written by ${this.authour} in ${this.year}';
+    return `${this.title} was written by ${this.authour} in ${this.year}`;
   }
 };
 
