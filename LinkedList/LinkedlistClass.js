@@ -8,6 +8,28 @@ do not worry much about the elements
 elements should be worried if the boss tells you about it
 right now when using algorithims, to manipulate the algorithim you must focus on pointers
 this would be the essence of Computer Science and doing complex Algorithims
+
+
+-----------------------Definitions,
+Head === the head node, first element on the list
+Size === Size of the Array
+node == Index of the list
+data == the element thats represented
+next == Pointer that will move the index
+
+
+
+The way linked list works is like a line, its first come first serve. LinkedList will come in handy for problems like sorting and priortizing elements in a list.
+
+https://www.geeksforgeeks.org/implementation-linkedlist-javascript/       <=== This is a perfect source to learn Linked List as it shows everything with real life problems.
+
+
+https://www.interviewbit.com/courses/programming/topics/linked-lists/ <=== This will be perfect for interview problems. :)
+
+
+
+
+
 */
 
 
@@ -23,8 +45,7 @@ class Node {
   }
   
   const n1 = new Node(100);
-  console.log(n1)
-  
+
   
   class LinkedList{
     constructor(){
@@ -178,5 +199,8 @@ class Node {
   linklist.removeAt(2);
   linklist.removeAt(3)
   linklist.printListData();
+
+
+  
   
   //linklist.getAt(0)
