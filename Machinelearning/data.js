@@ -25,7 +25,9 @@ network.train(trainingData,{
 const output = network.run(`I fixed the power supply`);
 const output2 = network.run(`Computer monitor`);
 const output3 = network.run(`code`)
+const output4 = network.run(`hello`)
 
 console.log(`Category: ${output}`);
 console.log(`Category: ${output2}`);
 console.log(`Category: ${output3}`);
+console.log(`Category: ${output4}`);
