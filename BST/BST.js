@@ -1,9 +1,9 @@
 /* Binary Search Tree */
 
-class Node {
+class Node {//Node class will be for Node travel
     constructor(data, left = null, right = null) {
-      this.data = data;
-      this.left = left;
+      this.data = data;//Stores Data
+      this.left = left;//Pointer for left side of the tree
       this.right = right;
     }
   }
